@@ -1,29 +1,29 @@
 export default {
     '@context': ['https://www.w3.org/ns/did/v1'],
-    id: 'did:hid:testnet:zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y',
-    controller: ['did:hid:testnet:zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y'],
-    alsoKnownAs: ['did:hid:testnet:zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y'],
+    id: 'did:hid:testnet:zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j',
+    controller: ['did:hid:testnet:zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j'],
+    alsoKnownAs: ['did:hid:testnet:zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j'],
     verificationMethod: [
         {
-            id: 'did:hid:testnet:zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y#key-1',
+            id: 'did:hid:testnet:zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j#key-1',
             type: 'Ed25519VerificationKey2020',
-            controller: 'did:hid:testnet:zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y',
-            publicKeyMultibase: 'zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y',
+            controller: 'did:hid:testnet:zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j',
+            publicKeyMultibase: 'zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j',
             blockchainAccountId: ''
         }
     ],
     authentication: [
-        'did:hid:testnet:zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y#key-1'
+        'did:hid:testnet:zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j#key-1'
     ],
     assertionMethod: [
-        'did:hid:testnet:zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y#key-1'
+        'did:hid:testnet:zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j#key-1'
     ],
     keyAgreement: [],
     capabilityInvocation: [
-        'did:hid:testnet:zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y#key-1'
+        'did:hid:testnet:zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j#key-1'
     ],
     capabilityDelegation: [
-        'did:hid:testnet:zDjJ8QnGt2E1aP6FeNAVhUQhyJtwz8N8EfFqyNdG2Tj6Y#key-1'
+        'did:hid:testnet:zAxLcNQeVH8YBitghJXRQaCKEqFugnBBzjXN5sD6sT17j#key-1'
     ],
     service: []
 }

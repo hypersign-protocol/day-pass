@@ -29,7 +29,7 @@ const router = new Router({
         },
         {
             path: "/day-pass/pass",
-            name: "kyc",
+            name: "pass",
             component: () =>
                 import( /* webpackChunkName: "adminLogin" */ "./day-pass/day-pass-issuance/day-pass-form.vue"),
         },
