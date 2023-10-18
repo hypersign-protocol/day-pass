@@ -8,7 +8,7 @@ module.exports = defineConfig({
         includeAliases: ['crypto', 'Buffer', 'stream']
       })],
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/day-pass" : "/day-pass",
   devServer: {
     https: true,
     port: 8080,

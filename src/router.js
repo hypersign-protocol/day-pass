@@ -10,31 +10,31 @@ const router = new Router({
     mode: "history",
     routes: [
         {
-            path: "/",
+            path: "/day-pass",
             name: "dash-board",
             component: () =>
                 import( /* webpackChunkName: "adminLogin" */ "./day-pass/dash-board.vue")
         },
         {
-            path: "/kyc",
+            path: "/day-pass/kyc",
             name: "kyc",
             component: () =>
                 import( /* webpackChunkName: "adminLogin" */ "./day-pass/id-module/aadhaar-id.vue"),
         },
         {
-            path: "/pay",
+            path: "/day-pass/pay",
             name: "pay",
             component: () =>
                 import( /* webpackChunkName: "adminLogin" */ "./day-pass/payment-module/payment-gateway.vue"),
         },
         {
-            path: "/day-pass",
+            path: "/day-pass/pass",
             name: "kyc",
             component: () =>
                 import( /* webpackChunkName: "adminLogin" */ "./day-pass/day-pass-issuance/day-pass-form.vue"),
         },
         {
-            path: "/day-pass-verify",
+            path: "/day-pass/verify",
             name: "kyc",
             component: () =>
                 import( /* webpackChunkName: "adminLogin" */ "./day-pass/day-pass-verification/verify-day-pass.vue"),

@@ -319,7 +319,7 @@ export default {
     openkycpopup() {
       const windowFeatures = "left=100,top=100,width=500,height=700";
       window.open(
-        `${window.location.origin}/kyc?did=${this.getUserDID?.did}`,
+        `${window.location.origin}/day-pass/kyc?did=${this.getUserDID?.did}`,
         "mozillaWindow",
         windowFeatures
       );
@@ -340,7 +340,7 @@ export default {
     openPaymentGatewayPopup() {
       const windowFeatures = "left=100,top=100,width=500,height=700";
       window.open(
-        `${window.location.origin}/pay?did=${this.getUserDID?.did}`,
+        `${window.location.origin}/day-pass/pay?did=${this.getUserDID?.did}`,
         "mozillaWindow",
         windowFeatures
       );

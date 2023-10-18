@@ -5,7 +5,7 @@
       <h4>Day Pass</h4>
     </div>
     <div class="card-body">
-      <a href="/day-pass">
+      <a href="/day-pass/pass">
         <div class="card card-tile">
           <div class="card-body">
             <h5 class="card-title">Request Day Pass</h5>
@@ -18,7 +18,7 @@
         </div>
       </a>
 
-      <a href="/day-pass-verify">
+      <a href="/day-pass/verify">
         <div class="card card-tile">
           <div class="card-body">
             <h5 class="card-title">Verify Day Pass</h5>
